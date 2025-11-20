@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TRI BOX</title>
+   <link rel="shortcut icon" href="eyee.jpg" type="image/x-icon">
+
+  <!-- Google Retro Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Press Start 2P', cursive;
+      background: linear-gradient(135deg, #94e4ff, #ff9aff);
+      color: #000;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+    /* Navigation styles */
+    nav {
+      background: #000;
+      padding: 15px;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      flex-wrap: wrap;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+      position: absolute;
+      top: 10px;
+      width: 100%;
+    }
+
+    nav a {
+      color: #00ffea;
+      text-decoration: none;
+      padding: 10px 20px;
+      border: 2px solid #00ffea;
+      border-radius: 10px;
+      transition: all 0.3s ease;
+      background: #111;
+    }
+
+    nav a:hover {
+      background: #00ffea;
+      color: #111;
+    }
+
+    /* Container */
+    .container {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    /* Box styles */
+    .box {
+      width: 250px;
+      height: 200px;
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+      font-weight: bold;
+      color: #000;
+      border-radius: 15px;
+      overflow: hidden;
+      word-wrap: break-word;
+    }
+
+    .blue {
+      background-color: lightblue;
+      border: 10px solid blue;
+    }
+
+    .yellow {
+      background-color: lightyellow;
+      border: 10px solid orange;
+    }
+
+    .red {
+      background-color: lightcoral;
+      border: 10px solid red;
+    }
+
+    /* Quote styling */
+    .quote {
+      font-size: 14px;
+      font-style: italic;
+      color: #555;
+      margin-top: 10px;
+    }
+
+    footer {
+      background-color: #000;
+      color: #fff;
+      padding: 20px;
+      font-size: 12px;
+      position: absolute;
+      width: 100%;
+      bottom: 0;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+ <a href="index.html">🏠 Home</a>
+    <a href="about.html">🎯 My Goals</a>
+    <a href="contact.html">🎮 My Hobbies</a>
+    <a href="crack.html">📝 Quotes</a>
+    <a href="ME.html">✝️ Peace </a>
+  </nav>
+
+  <div class="container">
+    <div class="box blue">
+      <p>"Great work starts with love." - Steve Jobs</p>
+      <p class="quote">"Success is the courage to continue." - Winston Churchill</p>
+    </div>
+
+    <div class="box yellow">
+      <p>"In difficulty lies opportunity." - Albert Einstein</p>
+      <p class="quote">"Keep going." - Sam Levenson</p>
+    </div>
+
+    <div class="box red"> 
+      <p>"Life happens when making plans." - John Lennon</p>
+      <p class="quote">"Life is about being useful." - Ralph Waldo Emerson</p>
+    </div>
+  </div>
+
+  
+  <footer>
+    &copy; MIchael's Quotes
+  </footer>
+<audio autoplay>
+  <source src="Ooh  Sound Effect.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+</body>
+</html>
+
+
+
